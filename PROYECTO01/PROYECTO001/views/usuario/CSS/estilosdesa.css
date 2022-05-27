@@ -1,0 +1,56 @@
+body {
+    background-image: url(./img/resident4.webp);
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    height: 70px;
+    background-color: coral;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contenido {
+    margin: 3px;
+}
+
+.caja {
+    display: table-cell;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.caja:nth-child(1) h2 {
+    background: yellow;
+}
+
+.caja:nth-child(2) h2 {
+    background: yellow;
+}
+
+.caja:nth-child(3) h2 {
+    background: yellow;
+}
+
+.caja:nth-child(4) h2 {
+    background: yellow;
+}
+
